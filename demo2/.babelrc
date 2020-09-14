@@ -1,0 +1,11 @@
+// 组件库配置
+{
+  "plugins": [[
+    "@babel/plugin-transform-runtime", {
+      "corejs": 2,
+      "helper": true,
+      "regenerator": true,
+      "useESModules": false
+    }
+  ]]
+}

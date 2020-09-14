@@ -1,3 +1,4 @@
+import '@babel/polyfill'
 // index.js
 
 // let dom = document.getElementById('root')
@@ -11,4 +12,4 @@ new Header()
 new doge()
 createDoge()
 
-console.log('2')
+const promise = new Promise()
